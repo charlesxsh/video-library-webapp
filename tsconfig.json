@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "src/index.tsx",
+        "src/actions.ts",
+        "src/reducers.ts",
+        "src/components/ListArea.tsx",
+        "src/components/ListItem.tsx",
+        "src/components/VideoArea.tsx"
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    </head>
+
+    <style>
+    #app {
+        height: 100%;
+        width: 100%;
+    }
+    #app-layout {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #video-area {
+        background-color: #333333;
+        height: 100%;
+        padding: 0;
+    }
+    
+    #list-area {
+        height: 100%;
+        background-color: #777777;
+    }
+    
+    #player {
+        background-color: #aaaaaa;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+    <body>
+        <div id="app"></div>
+
+
+        <!-- Dependencies -->
+        <script src="./node_modules/react/dist/react.js"></script>
+        <script src="./node_modules/react-dom/dist/react-dom.js"></script>
+
+        <!-- Main -->
+        <script src="./dist/bundle.js"></script>
+    </body>
+</html>
